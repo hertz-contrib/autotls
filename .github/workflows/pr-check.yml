@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Check License Header
-        uses: apache/skywalking-eyes@main
+        uses: apache/skywalking-eyes@v0.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -17,7 +17,7 @@ jobs:
         uses: crate-ci/typos@master
 
   staticcheck:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 

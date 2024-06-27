@@ -2,12 +2,11 @@ header:
   license:
     spdx-id: Apache-2.0
     copyright-owner: CloudWeGo Authors
-    copyright-year: '2022'
 
   paths:
-    - '**/*.go'
-    - '**/*.s'
+    - "**/*.go"
+    - "**/*.s"
 
   paths-ignore:
-    - '**/autocertcache.go'
+    - "**/autocertcache.go"
   comment: on-failure
