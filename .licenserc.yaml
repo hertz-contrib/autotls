@@ -4,9 +4,9 @@ header:
     copyright-owner: CloudWeGo Authors
 
   paths:
-    - '**/*.go'
-    - '**/*.s'
+    - "**/*.go"
+    - "**/*.s"
 
   paths-ignore:
-    - '**/autocertcache.go'
+    - "**/autocertcache.go"
   comment: on-failure
